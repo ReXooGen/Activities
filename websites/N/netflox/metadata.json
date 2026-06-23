@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.premid.app/metadata/1.16",
+  "apiVersion": 1,
+  "author": {
+    "name": "Liaan",
+    "id": "1386221782631587840"
+  },
+  "service": "Netflox",
+  "description": {
+    "en": "Show the drama or movie you are watching on Netflox as your Discord Rich Presence status.",
+    "id": "Tampilkan drama atau film yang sedang kamu tonton di Netflox ke status Discord-mu."
+  },
+  "url": "netflox-iota.vercel.app",
+  "regExp": "localhost:3000|netflox-iota\\.vercel\\.app|netflox-.*\\.vercel\\.app",
+  "version": "1.0.0",
+  "logo": "https://netflox-iota.vercel.app/logo.png",
+  "thumbnail": "https://netflox-iota.vercel.app/logo.png",
+  "color": "#E50914",
+  "category": "videos",
+  "tags": [
+    "netflox",
+    "video",
+    "drama",
+    "movie",
+    "streaming"
+  ],
+  "settings": [
+    {
+      "id": "lang",
+      "multiLanguage": true
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy Mode",
+      "icon": "fas fa-user-secret",
+      "value": false
+    },
+    {
+      "id": "time",
+      "title": "Show Timestamps",
+      "icon": "fas fa-clock",
+      "value": true
+    },
+    {
+      "id": "buttons",
+      "title": "Show Buttons",
+      "icon": "fas fa-link",
+      "value": true
+    }
+  ]
+}
